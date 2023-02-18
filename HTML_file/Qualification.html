@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Qualification</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="main">
+        <div id="tenth" class="clearfix">
+            <div class="letter">
+              1.  I have completed my Matriculation from PanchayatHighSchool(Alarigada) with Board Of Secondary Education(BSE) Certification.
+                <li>Total mark:- 600</li>
+                <li>Obtained mark:- 442</li>
+                <li>Percentage:- 73.6667 %</li>
+                <button id="certificate">
+                    <a href="/10th Board certificate.pdf" download="Prathamesh_Matriculation">Download Certificate</a>
+                </button>
+            </div>
+            <div class="cal">
+                <h1>Percentage calculater</h1>
+                    <div class="box">
+                        <h2>What is <input type="number" id="percent" style="border-radius: 15px;
+                            color: black;
+                            padding: 4px 4px;" />% of <input type="number" id="num" style="border-radius: 15px;
+                            color: black;
+                            padding: 4px 4px;">?</h2>
+                        <button onclick="percentage_1()">Calculate</button><br>
+                        <input type="text" id="value1" style="border-radius: 15px;
+                        color: black;
+                        padding: 4px 4px;" readonly />
+                    </div>
+            </div>
+        </div>
+        <div id="twelth" class="clearfix">
+            <div class="letter1">
+              2.  I have completed my Intermediate from RolandJuniorCollege with Council of Higher Secondary Education(CHSE) Certification.
+                <li>Total mark:- 600</li>
+                <li>Obtained mark:- 422</li>
+                <li>Percentage:- 70.333 %</li>
+                <button id="certificate">
+                    <a href="/+2 Certificate.pdf" download="Prathamesh_Intermediate">Download Certificate</a>
+                </button>
+                <!-- <button id="marksheet">
+                    <a href="">Download Marksheet</a>
+                </button> -->
+            </div>
+            <div class="cal">
+                <div class="box">
+                    <h2><input type="number" style="border-radius: 15px;
+                        color: black;
+                        padding: 4px 4px;" id="num1"/> is what percent of <input type="number" style="border-radius: 15px;
+                        color: black;
+                        padding: 4px 4px;" id="num2" /> ?</h2>
+                    <button onclick="percentage_2()">Calculate</button><br>
+                    <input type="text" id="value2" style="border-radius: 15px;
+                    color: black;
+                    padding: 4px 4px;" readonly />
+                </div>
+            </div>
+        </div>
+        <div id="btech" class="clearfix">
+            <div class="letter2">
+               3. I have completed my B.Tech from NationalInstitutOfScienceAndTechnology in Mechanical Engineering with Biju Patnaik University of Technology(BPUT) Certification.
+                <li>Total SGPA:- 10</li>
+                <li>Obtained SGPA Upto 8th sem:- 8.19625</li>
+                <li>CGPA Upto 8th sem:- 8.05</li>
+                <li>Percentage:- 75.5 %</li>
+                <button id="certificate">
+                    <a href="/B.Tech Provisional Certificate.pdf" download="Prathamesh_Provisional">Download Certificate</a>
+                </button>
+                <button id="marksheet">
+                    <a href="/BTech_Marksheet(1-8).pdf" download="Prathamesh_Marksheet">Download Marksheet</a>
+                    <!-- <iframe src="/BTech_Marksheet(1-8).pdf" frameborder="0"></iframe> -->
+                </button>
+            </div>
+            <div class="cal">
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function percentage_1(){
+            var percent = document.getElementById("percent").value;
+            var num = document.getElementById("num").value;
+            document.getElementById("value1").value = (num/100)*percent;
+        }
+        function percentage_2(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            document.getElementById("value2").value = (num1*100)/num2+"%";
+        }
+    </script>
+</body>
+</html>

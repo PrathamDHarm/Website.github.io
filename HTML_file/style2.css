@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/istockphoto-1276890189-612x612.jpg);
+    background-size: cover; 
+    background-position: center center;
+    position: relative;
+}
+
+.main{
+    width: 100vw;
+    min-height: 30vh;
+}
+
+#tenth {
+    width: 100vw;
+    height: 190px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.letter {
+    width: 60vw;
+    min-height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 46px;
+    list-style-type: none;
+}
+
+.letter li{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.letter button{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: rgb(108, 162, 187);
+    border-radius: 10px;
+}
+
+
+.letter button:hover{
+    background-color: white;
+}
+
+.letter button a:hover{
+    color: black;
+}
+
+.letter button a{
+    padding: 10px;
+}
+
+.cal{
+    width: 35vw;
+    margin-top: 20px;
+    margin-left: 5px;
+    min-height: 100px;
+    float: right;
+    list-style-type: none;
+}
+
+.cal h1{
+    margin-left: 25px;
+}
+
+.box h1 input {
+    color: black;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.box button{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 185px;
+}
+
+.box button:hover{
+    color: white;
+    background-color: black;
+}
+
+#twelth {
+    width: 100vw;
+    height: 190px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.letter1 {
+    width: 60vw;
+    min-height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 46px;
+    list-style-type: none;
+}
+
+.letter1 li{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.letter1 button{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: rgb(108, 162, 187);
+    border-radius: 10px;
+}
+
+.letter1 button:hover{
+    background-color: white;
+}
+
+.letter1 button a:hover{
+    color: black;
+}
+
+.letter1 button a{
+    padding: 10px;
+}
+
+.cal{
+    width: 35vw;
+    min-height: 100px;
+    float: right;
+    list-style-type: none;
+}
+
+#btech {
+    width: 100vw;
+    height: 190px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.letter2 {
+    width: 60vw;
+    min-height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 46px;
+    list-style-type: none;
+}
+
+.letter2 li{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.letter2 button{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: rgb(108, 162, 187);
+    border-radius: 10px;
+}
+
+.letter2 button:hover{
+    background-color: white;
+}
+
+.letter2 button a:hover{
+    color: black;
+}
+
+.letter2 button a{
+    padding: 10px;
+}
+
+.cal{
+    width: 35vw;
+    min-height: 100px;
+    float: right;
+    list-style-type: none;
+}
+
