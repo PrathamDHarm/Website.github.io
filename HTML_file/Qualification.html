@@ -78,7 +78,20 @@
                 </button>
             </div>
             <div class="cal">
-
+                <h1>Percentage calculator using CGPA</h1>
+                <div class="box">
+                    <h2>enter your CGPA upto 8semester (<input type="number" id="num3" style="border-radius: 15px;
+                        color: black;
+                        padding: 4px 4px;
+                        color: black;
+                        padding: 4px 4px;" />-0.5)*10</h2>
+                    <button onclick="percentage_3()">Calculate</button><br>
+                    <input type="text" id="value3" style="border-radius: 15px;
+                    color: black;
+                    padding: 4px 4px;
+                    color: black;
+                    padding: 4px 4px;" readonly />
+                </div>
             </div>
         </div>
     </div>
@@ -92,6 +105,10 @@
             var num1 = document.getElementById("num1").value;
             var num2 = document.getElementById("num2").value;
             document.getElementById("value2").value = (num1*100)/num2+"%";
+        }
+        function percentage_3(){
+            var num3 = document.getElementById("num3").value;
+            document.getElementById("value3").value = (num3-0.5)*10;
         }
     </script>
 </body>
