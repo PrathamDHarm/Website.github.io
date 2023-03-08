@@ -49,8 +49,9 @@ body{
 .letter button{
     margin-top: 10px;
     margin-left: 100px;
+    padding: 4px;
     background-color: rgb(108, 162, 187);
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 
@@ -126,8 +127,9 @@ body{
 .letter1 button{
     margin-top: 10px;
     margin-left: 100px;
+    padding: 4px;
     background-color: rgb(108, 162, 187);
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .letter1 button:hover{
@@ -177,8 +179,9 @@ body{
 .letter2 button{
     margin-top: 10px;
     margin-left: 100px;
+    padding: 4px;
     background-color: rgb(108, 162, 187);
-    border-radius: 10px;
+    border-radius: 13px;
 }
 
 .letter2 button:hover{
