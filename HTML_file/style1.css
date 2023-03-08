@@ -81,7 +81,21 @@ body{
 }
 
 .icons a{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 100px;
     margin: 35px;
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    /* margin: 35px; */
+    padding-top: 27px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: #e39d9d; */
+    /* border-radius: 20px; */
     /* height: 265px; */
     /* width: 265px; */
     /* border-style: solid; */
@@ -89,4 +103,43 @@ body{
     /* border-radius: 50px; */
     /* text-align: center; */
 
+}
+
+.icons a:hover i{
+    transform: scale(1.4);
+}
+
+.icons a i{
+    transition: all 0.3s linear;
+}
+
+.fa-youtube{
+    color: #e84118;
+}
+
+.fa-linkedin{
+    color: #0097e6;
+}
+.fa-github{
+    color: black;
+}
+
+button{
+    padding: 16px;
+    border-radius: 25px;
+    margin-left: 450px;
+    background-color: rgb(167, 243, 174);
+}
+
+button:hover{
+    background-color: rgb(111, 248, 111);
+}
+
+button a{
+    color: black;
+    font-weight: 600;
+}
+
+button a:hover{
+    text-decoration: underline;
 }
