@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/istockphoto-1276890189-612x612.jpg);
+    background-size: cover; 
+    background-position: center center;
+    position: relative; 
+} */
+
+.centrediv{
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    height: 200px;
+    width: 200px;
+    background-color: #f5f6fa;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 240px;
+    margin: 20px;
+    box-shadow: 2px 8px 4px 4px #dcdde1;
+}
+a i{
+    transition: all 0.3s linear;
+}
+
+a:hover i{
+    transform: scale(1.4);
+}
+
+.fa-youtube{
+    color: #e84118;
+}
+
+.fa-linkedin{
+    color: #0097e6;
+}
+.fa-github{
+    color: black;
+}
+.fa-whatsapp{
+    color: green;
+}

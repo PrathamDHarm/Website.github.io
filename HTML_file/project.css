@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    /* background: url(images/Trumpwallpapers\ -\ Robot\ Wallpapers.jpg);
+    background-size: cover; 
+    background-position: center center;
+    position: relative; */
+    list-style-type: none;
+}
+
+.main{
+    width: 100vw;
+}
+
+.main h1{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.main h3{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 23px;
+}
+
+.main li{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 23px;
+}
+
+.img{
+    width: 60vw;
+    display: flex;
+    float: right;
+}
+
+.link{
+    width: 40vw;
+    float: left;
+    margin-top: -212px;
+    margin-left: 23px;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.img img{
+    /* border-radius: 20px; */
+    width: 330px;
+    clip-path: circle(50%);
+    /* margin-left: 70px; */
+    height: 295px;
+}
+
+.txt {
+    float: initial;
+    /* margin-top: 1px;
+    margin-left: 1px; */
+}
+
+.main h4{
+    margin-top: 300px;
+    margin-left: 765px;
+    text-decoration: underline;
+}
