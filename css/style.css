@@ -292,3 +292,11 @@ div.container{
         width: 100%;
     }
 }
+
+@media only screen and (max-width:500px) {
+    .main{
+        opacity: 0;
+        width: 5%;
+        height: 5%;
+    }
+}
