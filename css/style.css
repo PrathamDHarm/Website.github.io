@@ -228,6 +228,8 @@ div.container{
 .nav li a{
     color: #fff;
     text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav li a:hover{
