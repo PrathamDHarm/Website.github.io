@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HTML_file/TIME.css">
+    <title>Analog Clock</title>
+</head>
+<body>
+    <div class="my-room">
+        <div class="main_container">
+            <div class="enter">
+                <button id="Enter_To_Website">
+                    <a href="index.html" style="text-decoration: none;color: #000000;">
+                        Enter To Small World
+                    </a>
+                </button>
+            </div>
+            <div class="container">
+                <div class="clock">
+                    <div style="--clr:#ff3d58; --h:72px; --w:4px;" id="hour" class="hand"><i></i></div>
+                    <div style="--clr:#00a6ff; --h:84px; --w:3px;" id="min" class="hand"><i></i></div>
+                    <div style="--clr:#ffffff; --h:94px; --w:1px;" id="sec" class="hand"><i></i></div>
+
+                    <span style="--i:1;"><b>1</b></span>
+                    <span style="--i:2;"><b>2</b></span>
+                    <span style="--i:3;"><b>3</b></span>
+                    <span style="--i:4;"><b>4</b></span>
+                    <span style="--i:5;"><b>5</b></span>
+                    <span style="--i:6;"><b>6</b></span>
+                    <span style="--i:7;"><b>7</b></span>
+                    <span style="--i:8;"><b>8</b></span>
+                    <span style="--i:9;"><b>9</b></span>
+                    <span style="--i:10;"><b>10</b></span>
+                    <span style="--i:11;"><b>11</b></span>
+                    <span style="--i:12;"><b>12</b></span>
+                </div>
+            </div>
+        </div>
+        <div class="my_room1">
+            <div class="container1">
+                <div class="calendar">
+                    <div class="calendar-header">
+                        <span class="month-change" id="month-pre">
+                            <pre><</pre>
+                        </span>
+                        <!-- <span class="month-picker" id="month-picker">may</span> -->
+                        <span class="month-picker" id="month-picker">may</span>
+                        <span class="month-change" id="month-next">
+                            <pre>></pre></span>
+                        </span>
+                        <div class="year-picker" id="year-picker">
+                            <span class="year-change" id="pre-year">
+                                <pre><</pre>
+                            </span>
+                            <span id="year">2020</span>
+                            <span class="year-change" id="next-year">
+                                <pre>></pre>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="calendar-body">
+                        <div class="calendar-week-days">
+                            <div>Sun</div>
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thur</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                        </div>
+                        <div class="calendar-days">
+                        </div>
+                    </div>
+                    <div class="calendar-footer">
+                    </div>
+                    <div class="date-time-formate">
+                        <div class="day-text-formate">TODAY</div>
+                        <div class="date-time-value">
+                            <div class="time-formate">00:00:00</div>
+                            <div class="date-formate">1 - july - 2023</div>
+                        </div>
+                    </div>
+                    <div class="month-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/HTML_file/TIME.js"></script>
+</body>
+</html>
